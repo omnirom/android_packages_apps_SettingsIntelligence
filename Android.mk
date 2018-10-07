@@ -20,8 +20,8 @@ LOCAL_PACKAGE_NAME := SettingsIntelligence
 LOCAL_MODULE_TAGS := optional
 LOCAL_PROGUARD_FLAG_FILES := proguard.cfg
 
-LOCAL_SDK_VERSION := system_current
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_PRIVATE_PLATFORM_APIS := true
 
 LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v4 \
